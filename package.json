@@ -1,0 +1,28 @@
+{
+  "name": "batfu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "eslint ./src && tsc",
+    "build-start": "pnpm build && pnpm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccreaper/batfu.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccreaper/batfu/issues"
+  },
+  "homepage": "https://github.com/ccreaper/batfu#readme",
+  "devDependencies": {
+    "@types/node": "16.11.11",
+    "@typescript-eslint/eslint-plugin": "5.5.0",
+    "@typescript-eslint/parser": "5.5.0",
+    "eslint": "8.4.0",
+    "typescript": "4.5.2"
+  }
+}
